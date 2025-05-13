@@ -1,0 +1,62 @@
+body{
+	background-color: rgba(108, 0, 64);
+	font-family: "playfair display", "consolas";
+	color: white;
+	text-shadow: -1px -1px #666666;
+	overflow: hidden;
+}
+
+p{
+	color: white;
+	font-family: "playfair display", "consolas";
+	text-shadow: -1px -1px #666666;
+}
+
+div{
+	min-width: 500px;
+	max-width: 700px;
+	background-color: rgba(205, 0, 121 );
+}
+			
+li{
+	font-size: 50%
+	background-color: #723bb9;
+}
+h2{
+	font-family: "playfair display", "consolas";
+	text-decoration: underline;
+	letter-spacing: 0.4em;
+	text-align: center;
+	text-shadow: -1px -1px #666666;
+	background-color: rgba(205, 0, 121 );
+	
+}
+			
+h3{
+	text-align: center;
+}
+			
+ol{
+	color: white;	
+	font-family: "playfair display", "consolas";
+	text-shadow: -1px -1px #666666;
+}
+			
+img{
+	overflow: hidden;
+}
+			
+ul{
+	color: white;	
+	font-family: "playfair display", "consolas";
+	text-shadow: -1px -1px #666666;
+	overflow: hidden;
+}
+			
+a{
+	color: white;
+	text decoration: none;
+	text-shadow: -1px -1px #666666;
+	background-color:rgba(205, 0, 121 );
+	overflow: hidden;
+}
