@@ -4,10 +4,10 @@ body{
 	color: white;
 	text-shadow: -1px -1px #666666;
 	overflow: hidden;
-	min-width: 480px;
-	max-width: 1064;
-	min-height: 400px;
-	max-height: 1440;
+	min-width: 320px;
+	max-width: 1440px;
+	min-height: 480px;
+	max-height: 900px;
 }
 
 p{
