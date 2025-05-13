@@ -4,6 +4,10 @@ body{
 	color: white;
 	text-shadow: -1px -1px #666666;
 	overflow: hidden;
+	min-width: 960px;
+	max-width: 1064;
+	min-height: 640px;
+	max-height: 1440;
 }
 
 p{
@@ -13,8 +17,6 @@ p{
 }
 
 div{
-	min-width: 500px;
-	max-width: 700px;
 	background-color: rgba(205, 0, 121 );
 }
 			
