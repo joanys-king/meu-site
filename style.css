@@ -1,15 +1,157 @@
-body{
-	background-color: rgba(108, 0, 64);
+.indexbody{
+	/*background-color: rgba(108, 0, 64);*/
+	background-image: url(./images/backg.JPG);
+	background-attachment: fixed;
+	background-size: 900px;
 	font-family: "playfair display", "consolas";
 	color: white;
 	text-shadow: -1px -1px #666666;
-	overflow: hidden;
+	overflow: scroll;
+	min-width: 320px;
+	max-width: 1440px;
+	min-height: 480px;
+	max-height: 900px;
+	display: block;
+}		
+
+.bibliotecabody{
+	background-image: url(./images/backg.JPG);
+	background-attachment: fixed;
+	background-size: 900px;
+	font-family: "playfair display", "consolas";
+	color: white;
+	text-shadow: -1px -1px #666666;
+	overflow: scroll;
 	min-width: 320px;
 	max-width: 1440px;
 	min-height: 480px;
 	max-height: 900px;
 }
 
+img{
+border-radius: 50%;
+}
+	
+img.logo {
+display: block;
+ margin-left: auto;
+margin-right: auto;
+ border-radius: 10px;
+ width: 200px;
+ height: auto;
+}
+
+ body.bemvindobody {
+	 /*background-color: rgba(108, 0, 64);*/
+	font-family: "playfair display", "consolas";
+	text-shadow: -1px -1px #666666;
+	overflow: scroll;
+	min-width: 320px;
+	max-width: 1440px;
+	min-height: 480px;
+	max-height: 900px;
+	 
+ background-image: url('./images/backg.JPG');
+ background-size: cover;
+ font-family: 'Playfair Display', serif;
+ margin: 0;
+ padding: 20px;
+ color: white;
+}
+
+.options {
+list-style: none;
+padding: 0;
+text-align: center;
+}
+
+.options li {
+margin: 10px 0;
+}
+
+.options a {
+text-decoration: none;
+}
+
+.options button {
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+ }
+	
+	
+.encomendasbody{
+	/*background-color: rgba(108, 0, 64);*/
+	background-image: url(./images/backg.JPG);
+	background-size: 900px;
+	font-family: "playfair display", "consolas";
+	color: white;
+	text-shadow: -1px -1px #666666;
+	overflow: scroll;
+	min-width: 320px;
+	max-width: 1440px;
+	min-height: 480px;
+	max-height: 900px;
+}
+
+ form {
+      text-align: center;
+      margin-bottom: 30px;
+	  display: block;
+	  }
+
+fildset{
+	width: 200px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+  padding: 6px;
+  width: 90%;
+  border-radius: 6px;
+  border: 1px solid #999;
+  margin-bottom: 12px;
+}
+
+ fieldset {
+	 justify-content: center;
+align-items: center;
+ width: 180px;
+ border: 1px solid #dcdcdc;
+ border-radius: 10px;
+ padding: 20px;
+ text-align: left;}
+ legend {
+ background-color: rgba(108, 0, 64);
+ color: white;
+ border: 1px solid #dcdcdc;
+ border-radius: 10px;
+ padding: 10px 20px;
+ text-align: center;
+ text-transform: uppercase;}
+
+ input#submit {
+ color: #444444;
+ text-shadow: 0px 1px 1px #ffffff;
+ border-bottom: 2px solid #b2b2b2;
+ background-color: #b9e4e3;
+ background: -webkit-gradient(linear, left top, 
+left bottom, from(#beeae9), to(#a8cfce));
+ background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+ background: -o-linear-gradient(top, #beeae9, #a8cfce);
+ background: -ms-linear-gradient(top, #beeae9, #a8cfce);}
+ input#submit:hover {
+ color: #333333;
+ border: 1px solid #a4a4a4;
+ border-top: 2px solid #b2b2b2;
+ background-color: #a0dbc4;
+ background: -webkit-gradient(linear, left top, 
+left bottom, from(#a8cfce), to(#beeae9));
+ background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+ background: -o-linear-gradient(top, #a8cfce, #beeae9);
+ background: -ms-linear-gradient(top, #a8cfce, #beeae9);}
+ 
 p{
 	color: white;
 	font-family: "playfair display", "consolas";
@@ -17,55 +159,145 @@ p{
 }
 
 div{
-	background-color: rgba(205, 0, 121 );
+/*	background-color: rgba(205, 0, 121 );*/
+	font-family: "playfair display", "consolas";
 }
 			
-li{
-	font-size: 50%
-	background-color: #723bb9;
-}
+
 h2{
 	font-family: "playfair display", "consolas";
 	text-decoration: underline;
 	text-align: center;
 	text-shadow: -1px -1px #666666;
-	background-color: rgba(205, 0, 121 );
-
+	/*background-color: rgba(205, 0, 121 );*/
 	min-width: 480px
 }
 
 h2(	max-width: 1200px;){
 	font-size: 36px;
+	font-family: "playfair display", "consolas";
 }
 h2(	min-width: 480px;){
 	font-size: 18px;
+	font-family: "playfair display", "consolas";
 }
 			
 h3{
 	text-align: center;
-}
-			
-ol{
-	color: white;	
 	font-family: "playfair display", "consolas";
-	text-shadow: -1px -1px #666666;
+}
+
+
+button{
+	font-size:18px;
+	background-color: white;
+	transition: all 0.3s ease-in-out;
+	color: rgba(108, 0, 64);
+	border-radius: 25px;
+	font-family: "playfair display", "consolas";
 }
 			
 img{
-	overflow: hidden;
+	font-family: "playfair display", "consolas";
 }
 			
-ul{
+.two{
 	color: white;	
 	font-family: "playfair display", "consolas";
 	text-shadow: -1px -1px #666666;
-	overflow: hidden;
+	font-size: 16px;
+	height: 440px;
+	width: 200px;
+	line-height:1.0;
+	border: 20px solid #0088dd;
+	background-color: rgba(108, 0, 64);
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.one{
+	color: white;	
+	font-family: "playfair display", "consolas";
+	text-shadow: -1px -1px #666666;
+	font-size: 18px;
 }
 			
 a{
 	color: white;
 	text decoration: none;
 	text-shadow: -1px -1px #666666;
-	background-color:rgba(205, 0, 121 );
-	overflow: hidden;
+	font-family: "playfair display", "consolas";
+	transition: all 0.3s ease-in-out;
+/* 	background-color:rgba(205, 0, 121 ); */
 }
+button:hover {
+  background-color: rgba(108, 0, 64, 0.8);
+  color: white;
+  transform: scale(1.05);
+}
+a:hover {
+  color: #ffd700;
+}
+
+.two, .one {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease;
+}
+.two:hover, .one:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgba(108,0,64,0.6), rgba(255,0,120,0.3));
+  z-index: -1;
+}
+
+h1, h2, h3 {
+  animation: slideIn 1s ease forwards;
+  opacity: 0;
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.optionsacess{
+	display: flex;
+}
+
+
+
+ * {
+      box-sizing: border-box;
+    }
+	
+	.cursosbody{
+	/*background-color: rgba(108, 0, 64);*/
+	background-image: url(./images/backg.JPG);
+	background-size: 900px;
+	overflow: scroll;
+	font-family: "playfair display", "consolas", Arial, sans-serif;
+	color: white;
+	text-shadow: -1px -1px #666666;
+	overflow: scroll;
+	min-width: 320px;
+	max-width: 1440px;
+	min-height: 480px;
+	max-height: 900px;
+}
+
+   
+
+  

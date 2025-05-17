@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<title>SABORES DA GRACIETH</title>
+		<meta name="description" 
+		content="Encomenda de bolos e cursos em Angola provincia de Luanda" />
+		<meta name="keywords" 
+		content="bolo, encomenda, luanda, angola" />
+		<meta name="robots" 
+		content="nofollow" />
+		<meta http-equiv="author" 
+		content="Joanys Gregorio" />
+		<meta http-equiv="pragma" 
+		content="no-cache" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--CSS CODE SECTION--!>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		<!-- IMAGES SECTION -->
+		<p><img src="./images/logo.JPG" alt="Os melhores bolos de Angola" title="Sabores Da Gracieth" width="180"  height="153" ></p>
+		<style>
+			img{
+			display: block;
+			margin: auto;
+			border-radius: 50%;
+			}
+			
+			 fieldset {
+			font-family: "Playfair Display", "Consolas";
+			display: block;
+			margin: auto;
+			width: 280px;
+			padding: 20px;
+			
+			input {
+			width: 100%;
+			padding: 6px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+    }
+		</style>
+</head>
+	
+<body class ="indexbody">
+	<script src="./javascript.js" defer></script>
+	
+	<form action="register.php" method="POST">
+	<fieldset>
+	<legend>Registre-se</legend>
+	
+	<label>Nome:<br />
+	<input type="text" name="username" size="15" maxlength="30"placeholder="Digite seu nome" /></label><br />
+	
+	<label>Numero do Whatsaap:<br />
+	<input type="tel" name="telefone" size="15" maxlength="30" placeholder="Numero de Telefone"/></label><br />
+
+	<label>Palavra-passe:<br />
+	<input type="password" name="password" size="15" maxlength="30"placeholder="Digite sua senha" /></label>
+	
+	<label>Email:<br />
+	<input type="email" name="email" size="15" maxlength="30" placeholder="Endereco de Email"/></label><br />
+	<input type="submit" value="Entrar">
+	<p>Já tem conta? <a href="login.html">Entrar</a></p>
+	</fieldset>
+	</form>
+</body>
+
+</html>

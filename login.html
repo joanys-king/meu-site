@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Sabores da Gracieth</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <p><img src="./images/logo.JPG" alt="Os melhores bolos de Angola" title="Sabores Da Gracieth" width="180"  height="153" ></p>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+			img{
+			display: block;
+			margin: auto;
+			border-radius: 50%;
+			}
+			
+			 fieldset {
+			font-family: "Playfair Display", "Consolas";
+			display: block;
+			margin: auto;
+			width: 280px;
+			padding: 20px;
+			
+			input {
+			width: 100%;
+			padding: 6px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+    }
+		</style>
+</head>
+
+<body class="bemvindobody">
+
+  <div class="form-container">
+    <h2>Entrar na Conta</h2>
+	
+    <form action="register.php" method="GET" onsubmit="return validarLogin()">
+	<fieldset>
+      <input type="text" id="usuario" placeholder="Nome de usuário" required><br>
+      <input type="password" id="senha" placeholder="Palavra-passe" required><br>
+      <button type="submit">Entrar</button>
+      <p>Não tem conta? <a href="cadastro.html">Criar conta</a></p>
+	  </fieldset>
+    </form>
+	
+  </div>
+
+  <script src="javascript.js.js"></script>
+</body>
+</html>
